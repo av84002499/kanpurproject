@@ -3,63 +3,66 @@ import React from 'react';
 const Products = () => {
   return (
     <div className='container mt-5'>
-
       <div className="row">
-
         <div className="col col-4">
           {/* Card - 1 */}
-          <div className="card text-bg-primary mb-3 ">
+          <div className="card text-bg-primary mb-3" style={{width: '100%', height: '10vh%'}}>
+            <img src="Abcin.png" className="card-img-top" alt="card1" style={{width: '300px', height: '400px'}}/>
             <div className="card-body">
-              <img src="Abcin.png" class="card-img-top" style={{ width: '70%', height: '10%' }}></img>
-              <h2 className="card--title1">Good Morning</h2>
-              <h5 className="card-title">Moderate-intensity aerobic activity</h5>
-              <p className="card-text">(such as brisk walking) for 150 minutes (for example, 30 minutes a day, 5 days a week</p>
-
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="!" className="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
 
         <div className="col col-4">
           {/* Card - 2 */}
-          <div className="card text-bg-primary mb-3 ">
+          <div className="card text-bg-primary mb-3" style={{width: '100%', height: '10vh%'}}>
+            <img src="Abcin.png" className="card-img-top" alt="card1" style={{width: '300px', height: '400px'}}/>
             <div className="card-body">
-            <img src="Brenowell.png" class="card-img-top" style={{ width: '70%', height: '10%' }}></img>
-            <h2 className="card-title">Balance activities</h2>
-              <p className="card-text">Walking heel-to-toe or standing from a sitting position And on 2 or more days a week that work all major muscle groups an An equivalent mix of moderate.</p>
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="!" className="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
 
         <div className="col col-4">
           {/* Card - 3 */}
-          <div className="card text-bg-primary mb-3 ">
+          <div className="card text-bg-primary mb-3" style={{width: '100%', height: '10vh%'}}>
+            <img src="Abcin.png" className="card-img-top" alt="card1" style={{width: '300px', height: '400px'}}/>
             <div className="card-body">
-            <img src="CARRYPOT.png" class="card-img-top" style={{ width: '70%', height: '10%' }}></img>
-            <h5 className="card-title">Breakfast </h5>
-              <p className="card-text">Veg Breakfast </p>
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="!" className="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
 
         <div className="col col-4">
           {/* Card - 4 */}
-          <div className="card text-bg-info mb-3 ">
+          <div className="card text-bg-primary mb-3" style={{width: '100%', height: '10vh%'}}>
+            <img src="Abcin.png" className="card-img-top" alt="card1" style={{width: '300px', height: '400px'}}/>
             <div className="card-body">
-            <img src="Cylia fort.png" class="card-img-top" style={{ width: '70%', height: '10%' }}></img>
-            <h5 className="card-title">It's Medicine Time </h5>
-              <p className="card-text">Taking a medicine after morning Breakfast </p>
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="!" className="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
 
         <div className="col col-4">
           {/* Card - 5 */}
-          
-
-       
-
+          <div className="card text-bg-primary mb-3" style={{width: '100%', height: '10vh%'}}>
+            <img src="Abcin.png" className="card-img-top" alt="card1" style={{width: '300px', height: '400px'}}/>
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="!" className="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
         </div>
-
       </div>
     </div>
   );
