@@ -6,8 +6,9 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light py-3 sticky-top">
             <div className="container">
-                <Link className="navbar-brand fw-bold fs-4 px-2" to="/"> React Ecommerce</Link>
-                <button className="navbar-toggler mx-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <Link className="navbar-brand fw-bold fs-4 px-2" to="/">
+            <img src="5.jpg" alt="Logo" style={{ width: '50%', height: '30%' }} /> </Link>                
+            <button className="navbar-toggler mx-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
